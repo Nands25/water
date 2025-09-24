@@ -38,15 +38,20 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _FoamAmount: 0.5
+    - _FoamCutoff: 1
+    - _FoamScale: 200
+    - _FoamSpeed: 0.03
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RippleDensity: 4
     - _RippleSilmness: 8
     - _RippleSpeed: 2
-    - _WaveScale: 3
+    - _WaveScale: 2
     - _WaveSpeed: 0.1
     m_Colors:
     - _BaseColor: {r: 0.28862578, g: 0.7296788, b: 0.8867924, a: 0}
+    - _FoamColor: {r: 1.6415095, g: 1.5873085, b: 1.5873085, a: 1}
     - _RippleColor: {r: 0.5784087, g: 1.555511, b: 1.830189, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
